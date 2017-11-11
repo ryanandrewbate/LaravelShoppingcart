@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Ryanandrewbate\\Shoppingcart\\": "src/"
+            "Gloudemans\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ryanandrewbate\\Tests\\Shoppingcart\\": "tests/"
+            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
@@ -36,10 +36,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ryanandrewbate\\Shoppingcart\\ShoppingcartServiceProvider"
+                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Ryanandrewbate\\Shoppingcart\\Facades\\Cart"
+                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
             }
         }
     }

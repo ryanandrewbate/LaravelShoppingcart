@@ -1,6 +1,6 @@
 {
-    "name": "gloudemans/shoppingcart",
-    "description": "Laravel Shoppingcart",
+    "name": "ryanandrewbate/shoppingcart",
+    "description": "Laravel Shoppingcart from gloudemans",
     "keywords": ["laravel", "shoppingcart"],
     "license": "MIT",
     "authors": [
@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Gloudemans\\Shoppingcart\\": "src/"
+            "Ryanandrewbate\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
+            "Ryanandrewbate\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
@@ -36,10 +36,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+                "Ryanandrewbate\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+                "Cart": "Ryanandrewbate\\Shoppingcart\\Facades\\Cart"
             }
         }
     }
